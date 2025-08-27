@@ -18,17 +18,24 @@ header{
 .logo{
     height: 15rem;
 }
+.logInSpan{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    left: 80%;
+}
 .logIn{
-    width: max-content;
+    width: 6rem;
     height: auto;
     border: 1px solid #c1c1c1;
     padding: 0.5rem;
     text-decoration: none;
     color: #000;
     font-weight: 600;
-    position: relative;
-    left: 30%;
-    top: 10%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 .logIn:hover{
     background-color: #3233f2;
@@ -55,8 +62,52 @@ header{
 .navBar a:hover{
     border-bottom: 2px solid #3233f2;
     cursor: pointer;
+    transition: 0.2s;
 }
 
+/* footer */
+.footer{
+    width: 100%;
+    height: 15rem;
+    background-color: #3233f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footerContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #FFF;
+
+}
+.spanFooter{
+    display: flex;
+    flex-direction: column;
+}
+.spanFooter p{
+    font-size: 1.3rem;
+    text-decoration: underline;
+    font-weight: 800;
+    margin-bottom: .5rem;
+}
+.spanFooter a{
+    text-decoration: none;
+    color:#FFF;
+    margin-bottom: .25rem;
+}
+.footerP{
+    color: #c1c1c1;
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+    height: 2rem;
+}
+.footerIMG{
+    width: 8rem;
+    height: 8rem;
+    }
 
 /* home */
 
@@ -108,18 +159,26 @@ header{
 .noticiasPeques{
     width: 20%;
     height: 20%;
-    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 1rem;
     text-align: center;
+    border: 2px solid #a1a1a1;
 }
 .noticiasPeques a{
     text-decoration: none;
+    width: 100%;
     color: #000;
+}
+.noticiasPeques h2{
+    width: 100%;
+    height: 2rem;
+    background-color: red;
+    color: #FFF;
 }
 .pequeNumero{
     font-size: 6rem;
 }
+
 
