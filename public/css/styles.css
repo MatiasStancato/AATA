@@ -13,6 +13,7 @@ header{
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    border-bottom: 1px solid #3233f2;
 }
 
 .logo{
@@ -206,5 +207,65 @@ header{
 .pequeNumero{
     font-size: 6rem;
 }
+/* CALENDARIO */
+.mainCalendar{
+    width: 100%;
+}
+.calendarTitle{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #3233f2;
+    margin-bottom: 1rem;
+}
+.calendarTitle h1{
+    font-size: 5rem;
+    margin: 0 2rem;
+}
+.calendarTitleImg{
+    width: 8rem;
+    height: max-content;
+    object-fit: cover;
+}
+.calendarIntro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.calendarIntro h2{
+    font-size: 1.5rem;
+    width: max-content;
+    margin-bottom: 1rem;
+}
+.calendarIntro p{
+    width: 70%;
+}
+.calendarContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eventLogo{
+    width: 8rem;
+    height: auto;
+    object-fit: cover;
+}
+.calendarEvent{
+    width:40% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #3233f2;
+    padding-bottom: 1rem;
+}
+
 
 
