@@ -211,7 +211,7 @@ header{
 .mainCalendar{
     width: 100%;
 }
-.calendarTitle{
+.containerTitle{
     width: 100%;
     height: max-content;
     display: flex;
@@ -221,11 +221,11 @@ header{
     border-bottom: 1px solid #3233f2;
     margin-bottom: 1rem;
 }
-.calendarTitle h1{
+.title{
     font-size: 5rem;
     margin: 0 2rem;
 }
-.calendarTitleImg{
+.TitleImg{
     width: 8rem;
     height: max-content;
     object-fit: cover;
@@ -253,19 +253,62 @@ header{
     justify-content: center;
     align-items: center;
 }
-.eventLogo{
-    width: 8rem;
-    height: auto;
-    object-fit: cover;
-}
+
 .calendarEvent{
-    width:40% ;
+    width:35%;
+    height: max-content;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom: 1px solid #3233f2;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 5px #c1c1c1;
 }
+.eventLogo{
+    width: 8rem;
+    height: max-content;
+    object-fit: cover;
+}
+.calendarEvent h3{
+    margin: .5rem 0;
+}
+.calendarEvent h4{
+    margin: .5rem 0;
+}
+.calendarEvent h5{
+    margin: .5rem 0;
+}
+
+/* CONTACTO */
+.mainContacto{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formContainer{
+    width: 50%;
+    height: 30rem;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.formContainer label{
+    width: 100%;
+}
+.formContainer input{
+    width: 100%;
+    border: none;
+    border-bottom:2px solid #000;
+    margin-top: 1rem;
+}
+.formContainer button{
+    margin-top: 2rem;
+}
+
 
 
 
