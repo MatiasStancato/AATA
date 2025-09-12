@@ -209,10 +209,12 @@ header{
 }
 /* CALENDARIO */
 .mainCalendar{
-    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .containerTitle{
-    width: 100%;
+    width: max-content;
     height: max-content;
     display: flex;
     flex-direction: row;
@@ -220,6 +222,7 @@ header{
     align-items: center;
     border-bottom: 1px solid #3233f2;
     margin-bottom: 1rem;
+    margin: 0 50%;
 }
 .title{
     font-size: 5rem;
